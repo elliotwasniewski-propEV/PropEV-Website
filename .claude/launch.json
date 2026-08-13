@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "propev-static",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\ellio\\AppData\\Local\\Temp\\claude\\C--Users-ellio-OneDrive-Desktop-Work-PropEV-Website\\8fba8163-b43a-4416-898a-2dfecfcd1eb0\\scratchpad\\serve.ps1"
+      ],
+      "port": 8080
+    }
+  ]
+}

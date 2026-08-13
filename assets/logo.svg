@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-label="PropEV, EV Charging Advisory">
+  <defs>
+    <linearGradient id="leafGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FBE44"/>
+      <stop offset="100%" stop-color="#5E6B2E"/>
+    </linearGradient>
+    <mask id="boltCutout">
+      <rect x="0" y="0" width="100" height="100" fill="#fff"/>
+      <path d="M56,14 L36,54 L48,54 L41,90 L68,46 L54,46 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M50,96 C8,70 8,18 50,4 C92,18 92,70 50,96 Z" fill="url(#leafGradient)" mask="url(#boltCutout)"/>
+  <text x="112" y="56" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="42" fill="#2F2C26">PropEV</text>
+  <text x="113" y="78" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="12" letter-spacing="2" fill="#7A776F">EV CHARGING ADVISORY</text>
+</svg>

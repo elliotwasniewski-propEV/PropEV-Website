@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\ellio\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-ellio-OneDrive-Desktop-Work-PropEV-Website\\\\8fba8163-b43a-4416-898a-2dfecfcd1eb0\\\\scratchpad\\\\gen_icons.ps1\")",
+      "Bash(git --version)"
+    ]
+  }
+}
