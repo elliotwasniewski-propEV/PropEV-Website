@@ -11,7 +11,7 @@
 // block near the top of index.html — update that too if you
 // change this.)
 // ---------------------------------------------------------------
-const CONTACT_EMAIL = 'elliot@propev.co.in';
+const CONTACT_EMAIL = 'elliot@propev.com.au';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Fill in every mailto link/text from the single email constant above.

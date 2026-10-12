@@ -315,6 +315,7 @@ textarea:focus-visible {
   display: grid;
   gap: var(--space-3);
 }
+.card-grid--2 { grid-template-columns: repeat(2, 1fr); }
 .card-grid--3 { grid-template-columns: repeat(3, 1fr); }
 .card-grid--4 { grid-template-columns: repeat(4, 1fr); }
 
@@ -334,16 +335,13 @@ textarea:focus-visible {
   margin-bottom: 0.5rem;
 }
 
-.value-band {
-  margin-top: var(--space-5);
-  padding: var(--space-4) var(--space-5);
-  background: var(--color-surface);
-  border: 1px solid var(--color-hairline);
-  border-left: 3px solid var(--color-green);
-  border-radius: var(--radius);
-  max-width: 80ch;
+.audience__note {
+  margin-top: var(--space-4);
+  font-weight: 500;
+  color: var(--color-charcoal);
 }
-.value-band p { color: var(--color-body); font-size: 1.05rem; }
+
+.about__cta { margin-top: var(--space-4); }
 
 .services { background: var(--color-surface); }
 
@@ -362,48 +360,8 @@ textarea:focus-visible {
   line-height: 1;
   margin-bottom: var(--space-2);
 }
-.stage-card h3 { margin-bottom: 0.25rem; }
-.stage-card__label {
-  color: var(--color-muted);
-  font-weight: 500;
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
-.stage-card p:last-child { color: var(--color-body); }
-
-.check-list {
-  display: grid;
-  gap: var(--space-3);
-  max-width: 70ch;
-  margin-bottom: var(--space-5);
-}
-.check-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--space-2);
-}
-.check-list__icon {
-  width: 22px;
-  height: 22px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-.check-list p { color: var(--color-body); }
-
-.independence-band {
-  margin: 0;
-  padding: var(--space-5);
-  background: var(--color-charcoal);
-  border-radius: var(--radius);
-  max-width: 80ch;
-}
-.independence-band p {
-  color: #F2F1EC;
-  font-size: 1.15rem;
-  font-family: var(--font-heading);
-  font-weight: 600;
-  line-height: 1.5;
-}
+.stage-card h3 { margin-bottom: 0.5rem; }
+.stage-card p { color: var(--color-body); }
 
 .track-record { background: var(--color-surface); }
 
@@ -553,6 +511,7 @@ textarea:focus-visible {
   .site-nav__list a::after { display: none; }
   .site-nav__cta { margin-top: var(--space-2); justify-content: center; }
 
+  .card-grid--2 { grid-template-columns: 1fr; }
   .card-grid--3 { grid-template-columns: 1fr; }
   .card-grid--4 { grid-template-columns: 1fr; }
 
